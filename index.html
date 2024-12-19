@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Новогодний Тетрис</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="snow-layer"></div>
+    <div class="santa">🎅</div>
+    <div class="game-container">
+        <div class="corner-decoration">❄️</div>
+        <div class="corner-decoration">🎁</div>
+        <div class="corner-decoration">🕯️</div>
+        <div class="corner-decoration">🎀</div>
+        <div class="game-info">
+            <div class="score">Очки: <span id="score">0</span></div>
+            <div class="level">Уровень: <span id="level">1</span></div>
+        </div>
+        <canvas id="game" width="320" height="640"></canvas>
+        <div class="next-piece">
+            <p>🎁 Следующая фигура:</p>
+            <canvas id="next" width="160" height="160"></canvas>
+        </div>
+    </div>
+    <script src="tetris.js"></script>
+</body>
+</html> 
